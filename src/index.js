@@ -9,6 +9,15 @@ const Alert = () => {
   };
   //your component here
 
+  
+  return (
+    <div className={`alert alert-${colorClasses.color}`} role="alert">
+      {colorClasses.text4Red}
+    </div>
+  );
+
+
+
 };
 
 // here is where the alert component is being used, you don't have to edit this part,
